@@ -43,7 +43,7 @@ app.use(passport.session())
 // const server = http.createServer(app);
 
 
-app.use("/api/user",userRouter)
+// app.use("/api/user",userRouter)
 app.use("/auth",authRoute)
 
 
